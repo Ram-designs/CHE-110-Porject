@@ -101,7 +101,7 @@
   }
   
   section .btntwo {x
-    background: #00b894;
+    background: rgb(67, 189, 51);
     color: white;
   }
   
@@ -124,10 +124,10 @@
       content: "The Weak";
     }
     50% {
-      content: "Endangered";
+      content: "The Endangered";
     }
     75% {
-      content: "EcoSYSTEM";
+      content: "The EcoSYSTEM";
     }
     100% {
       content: "Species Diversity";
