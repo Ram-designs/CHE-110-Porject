@@ -134,3 +134,26 @@ h3 { font-size: 100%; }
 
 a:link, a:visited { color: #5b8fbe; text-decoration: none; }
 a:hover{ color: #666; text-decoration: none; }
+
+.content{
+	border-collapse: collapse;
+	margin: 25px 0px;;
+}
+
+.content thead th{
+	background-color: #5b8fbe;
+	color: #fff;
+	padding: 5px 10px;
+	text-align: center;
+	font-weight: bold;
+}
+ 
+.content td{
+	border-bottom: 1px solid #dddddd;
+	padding: 12px 15px;
+	text-align: center;
+}
+
+.content tr:hover td{
+	background-color: #f2f2f2;
+}
